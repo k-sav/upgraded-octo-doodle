@@ -1,0 +1,17 @@
+{
+  "name": "linktree-link-react-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "create-linktree-link-run build",
+    "dev": "create-linktree-link-run dev",
+    "start": "create-linktree-link-run dev",
+    "upload": "create-linktree-link-run upload"
+  },
+  "devDependencies": {
+    "@linktr.ee/create-link": "^0.5.0",
+    "@linktr.ee/ui-link-kit": "^0.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
+  }
+}

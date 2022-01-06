@@ -1,0 +1,87 @@
+{
+  "title": "Image Link",
+  "elements": [
+    {
+      "inputType": "text",
+      "description": "Provide a url to the 1st image",
+      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
+      "id": "image0",
+      "validation": {
+        "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
+      }
+    },
+    {
+      "inputType": "text",
+      "description": "Provide a url to the 2nd image",
+      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
+      "id": "image1",
+      "validation": {
+        "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
+      }
+    },
+    {
+      "inputType": "text",
+      "description": "Provide a url to the 3rd image",
+      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
+      "id": "image2",
+      "validation": {
+        "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
+      }
+    },
+    {
+      "inputType": "text",
+      "description": "Provide a url to the 4th image",
+      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
+      "id": "image3",
+      "validation": {
+        "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
+      }
+    },
+    {
+      "inputType": "text",
+      "description": "Provide a url to the 5th image",
+      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
+      "id": "image4",
+      "validation": {
+        "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
+      }
+    },
+    {
+      "inputType": "text",
+      "description": "Provide a url to the 6th image",
+      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
+      "id": "image5",
+      "validation": {
+        "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
+      }
+    },
+    {
+      "inputType": "radio",
+      "id": "layout",
+      "label": "Layout",
+      "defaultValue": "grid",
+      "options": [
+        { "value": "grid", "label": "Grid" },
+        { "value": "carousel", "label": "Carousel" }
+      ],
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "inputType": "textarea",
+      "description": "Description (optional)",
+      "placeholder": "Write a description for your images",
+      "id": "description"
+    },
+    {
+      "inputType": "text",
+      "description": "Link (optional)",
+      "placeholder": "https://linktr.ee/blog",
+      "id": "external_link",
+      "validation": {
+        "pattern": "(http[s]?://.*.)"
+      }
+    }
+  ]
+}

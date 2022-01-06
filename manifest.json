@@ -1,0 +1,14 @@
+{
+  "name": "Photo - Link Type - 3a",
+  "description": "A simple photo link",
+  "version": "0.0.3",
+  "manifest_version": "1.0.0",
+  "author": {
+    "name": "Linktree - 3a",
+    "accounts": ["k_sav", "olivia.e.c"],
+    "contact": {
+      "url": "https://linktr.ee",
+      "email": "kris@linktr.ee"
+    }
+  }
+}
