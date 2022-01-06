@@ -3,7 +3,7 @@
   "elements": [
     {
       "inputType": "text",
-      "description": "Provide a url to the 1st image",
+      "description": "URL for 1st image",
       "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image0",
       "validation": {
@@ -12,7 +12,7 @@
     },
     {
       "inputType": "text",
-      "description": "Provide a url to the 2nd image",
+      "description": "URL for 2nd image",
       "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image1",
       "validation": {
@@ -21,7 +21,7 @@
     },
     {
       "inputType": "text",
-      "description": "Provide a url to the 3rd image",
+      "description": "URL for 3rd image",
       "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image2",
       "validation": {
@@ -30,7 +30,7 @@
     },
     {
       "inputType": "text",
-      "description": "Provide a url to the 4th image",
+      "description": "URL for 4th image",
       "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image3",
       "validation": {
@@ -39,7 +39,7 @@
     },
     {
       "inputType": "text",
-      "description": "Provide a url to the 5th image",
+      "description": "URL for 5th image",
       "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image4",
       "validation": {
@@ -48,7 +48,7 @@
     },
     {
       "inputType": "text",
-      "description": "Provide a url to the 6th image",
+      "description": "URL for 6th image",
       "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image5",
       "validation": {
@@ -59,9 +59,8 @@
       "inputType": "radio",
       "id": "layout",
       "label": "Layout",
-      "defaultValue": "grid",
       "options": [
-        { "value": "grid", "label": "Grid" },
+        { "value": "grid", "label": "Grid", "checked": true },
         { "value": "carousel", "label": "Carousel" }
       ],
       "validation": {
