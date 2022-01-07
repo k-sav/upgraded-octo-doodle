@@ -2,9 +2,10 @@ import React from "react";
 import styled, { css } from "styled-components";
 
 import { Flex, Text, Box, Button } from "@linktr.ee/ui-link-kit";
-import { SettingsData } from "./types";
+import { SettingsData, LayoutType } from "./types";
 
 import { Grid } from "./components/Grid";
+import { Carousel } from "./components/Carousel";
 
 function App({
   external_link,
@@ -15,6 +16,7 @@ function App({
   image3,
   image4,
   image5,
+  layout = LayoutType.GRID,
 }: SettingsData) {
   return (
     <Flex
@@ -32,7 +34,13 @@ function App({
         </Box>
       )}
 
-      <Grid imageSrcs={[image0, image1, image2, image3, image4, image5]} />
+      {layout === LayoutType.GRID ? (
+        <Grid imageSrcs={[image0, image1, image2, image3, image4, image5]} />
+      ) : (
+        <Carousel
+          imageSrcs={[image0, image1, image2, image3, image4, image5]}
+        />
+      )}
 
       {!!external_link && (
         <ButtonContainer>
