@@ -76,7 +76,7 @@
     {
       "inputType": "text",
       "description": "Link button text (optional)",
-      "placeholder": "View more here!",
+      "placeholder": "View More",
       "id": "external_link_label"
     },
     {
