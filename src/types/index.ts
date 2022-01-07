@@ -7,4 +7,10 @@ export type SettingsData = {
   image3?: string;
   image4?: string;
   image5?: string;
+  layout?: LayoutType;
 };
+
+export enum LayoutType {
+  GRID = "grid",
+  CAROUSEL = "carousel",
+}

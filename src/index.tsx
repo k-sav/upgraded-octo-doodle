@@ -15,6 +15,7 @@ function App({
   image3,
   image4,
   image5,
+  layout,
 }: SettingsData) {
   return (
     <Flex
@@ -32,7 +33,10 @@ function App({
         </Box>
       )}
 
-      <Grid imageSrcs={[image0, image1, image2, image3, image4, image5]} />
+      <Grid
+        imageSrcs={[image0, image1, image2, image3, image4, image5]}
+        layout={layout}
+      />
 
       {!!external_link && (
         <ButtonContainer>
