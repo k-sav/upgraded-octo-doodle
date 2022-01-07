@@ -8,6 +8,7 @@ export type SettingsData = {
   image4?: string;
   image5?: string;
   layout?: LayoutType;
+  external_link_label?: string;
 };
 
 export enum LayoutType {

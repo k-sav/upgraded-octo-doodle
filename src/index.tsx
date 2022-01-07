@@ -16,7 +16,7 @@ function App({
   image3,
   image4,
   image5,
-  layout = LayoutType.GRID,
+  layout = LayoutType.GRID, external_link_label
 }: SettingsData) {
   return (
     <Flex
@@ -45,7 +45,7 @@ function App({
       {!!external_link && (
         <ButtonContainer>
           <StyledButton as="a" href={external_link}>
-            Check out my website!
+            {external_link_label}
           </StyledButton>
         </ButtonContainer>
       )}
