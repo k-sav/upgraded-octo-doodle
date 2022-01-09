@@ -75,18 +75,18 @@
     },
     {
       "inputType": "text",
-      "description": "Link button text (optional)",
-      "placeholder": "View More",
-      "id": "external_link_label"
-    },
-    {
-      "inputType": "text",
-      "description": "Link (optional)",
+      "description": "Link url (optional)",
       "placeholder": "https://linktr.ee/blog",
       "id": "external_link",
       "validation": {
         "pattern": "(http[s]?://.*.)"
       }
+    },
+    {
+      "inputType": "text",
+      "description": "Link label (optional)",
+      "placeholder": "View More",
+      "id": "external_link_label"
     }
   ]
 }
