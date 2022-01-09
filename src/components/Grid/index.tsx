@@ -11,9 +11,8 @@ export const Grid = ({ imageSrcs }: { imageSrcs?: string[] }) => {
       display="grid"
       gridGap={10}
       gridTemplateColumns={["repeat(3, 1fr)"]}
-      gridTemplateRows={[`repeat(${length > 3 ? 2 : 1}, 200px)`]}
       overflow="auto"
-      paddingBottom={[32, 0]}
+      paddingBottom={32}
     >
       {imageSrcs.filter(Boolean).map((imageSrc) => (
         <GridItem imageSrc={imageSrc} />

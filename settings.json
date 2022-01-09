@@ -4,7 +4,6 @@
     {
       "inputType": "text",
       "description": "URL for 1st image",
-      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image0",
       "validation": {
         "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
@@ -13,7 +12,6 @@
     {
       "inputType": "text",
       "description": "URL for 2nd image",
-      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image1",
       "validation": {
         "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
@@ -22,7 +20,6 @@
     {
       "inputType": "text",
       "description": "URL for 3rd image",
-      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image2",
       "validation": {
         "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
@@ -31,7 +28,6 @@
     {
       "inputType": "text",
       "description": "URL for 4th image",
-      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image3",
       "validation": {
         "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
@@ -40,7 +36,6 @@
     {
       "inputType": "text",
       "description": "URL for 5th image",
-      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image4",
       "validation": {
         "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
@@ -49,7 +44,6 @@
     {
       "inputType": "text",
       "description": "URL for 6th image",
-      "placeholder": "https://dog.ceo/img/dog-ceo-zine.jpg",
       "id": "image5",
       "validation": {
         "pattern": "(http[s]?://.*.(?:png|jpg|gif|svg|jpeg))"
@@ -75,7 +69,7 @@
     },
     {
       "inputType": "text",
-      "description": "Link (optional)",
+      "description": "Link url (optional)",
       "placeholder": "https://linktr.ee/blog",
       "id": "external_link",
       "validation": {
@@ -84,8 +78,8 @@
     },
     {
       "inputType": "text",
-      "description": "Link button text (optional)",
-      "placeholder": "View more here!",
+      "description": "Link label (optional)",
+      "placeholder": "View More",
       "id": "external_link_label"
     }
   ]
