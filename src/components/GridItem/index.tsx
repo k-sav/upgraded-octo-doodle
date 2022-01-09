@@ -20,9 +20,6 @@ export const GridItem = ({ imageSrc }: { imageSrc?: string }) => {
       position="relative"
     >
       <StyledImage src={imageSrc} alt="" draggable="false" />
-      {/* <Box position="absolute" top={8} right={8}>
-        <LaunchIcon />
-      </Box> */}
     </Flex>
   );
 };
